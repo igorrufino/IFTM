@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+
+body {
+    font-size: 40px;
+}
+h1 {
+    font-family: 'Nosifer', cursive;
+    color: red
+}
+h1 {
+    font-size: 100%;
+}
+
+h2 {
+    font-size: 80%;
+}
+
+h3 {
+    font-size: 60%;
+}
+
+p, li {
+    font-size: 47%;
+}
