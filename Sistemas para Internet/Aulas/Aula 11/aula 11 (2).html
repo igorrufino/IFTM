@@ -1,0 +1,210 @@
+<html>
+
+	<head>
+		<title>Formulários</title>
+		<meta charset="UTF-8">
+	</head>
+
+	<body background="linear.jpg">
+
+		<form>
+
+			<table background="aero.jpg"  border="1"  align="center" width="70%" cellpadding="5" cellspacing="0">
+						
+				<tr>
+					<th align="center" colspan="4">
+						<h1>
+							<font face="Verdana" color="#fffff" align="center">
+								Formulário Lista 04
+							</font>
+						</h1>
+					</th>
+				</tr>
+						
+				<tr>
+					<th align="center" colspan="4">
+						<font face="Verdana" color="#fffff">
+							Informações Pessoais
+						</font>
+					</th>
+				</tr>
+
+				<tr>
+					<td  align="right" width="20%">
+						<font face="Verdana" color="#fffff">
+							Nome Completo:
+						</font>
+					</td>
+						
+					<td align="left" width="20%">
+						<input type="text" name="Nome" size="40" placeholder="Igor Rufino dos Santos">
+					</td>
+
+					<td align="right" width="20%">
+						<font face="Verdana" color="#fffff">
+							Tipo Sanguíneo:
+						</font>
+					</td>
+
+					<td width="5%">
+						<select name="sangue">
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>					
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td align="center" width="20%">
+						<font face="Verdana" color="#fffff">
+							Data de Nascimento:
+						</font>
+					</td >
+					<td align="left">
+						<input type="date" name="data" >
+					</td>
+					
+					<td align="right" width="15%">
+						<font face="Verdana" color="#fffff">
+							Sexo:
+						</font>
+					</td>
+
+					<td align="left" width="5%">
+						<select>
+							<option value="masculino">
+								 <font face="Verdana" color="#fffff">Masculino</font>
+							</option>
+							<option value="feminino">
+								<font face="Verdana" color="#fffff">Feminino</font>
+							</option>
+						</select>
+					</td>		
+				</tr>
+
+				<tr>
+					<td align="center" width="20%">
+						<font face="Verdana" color="#fffff">
+							Biografia:
+						</font>
+					</td>
+					<td colspan="5" align="left" width="40%" >
+						<textarea  name="biografia" rows="10"  cols="75" placeholder="João Ello, primogênito de uma família de quatro irmãs, (Esmeralda, Elbany, Érika e Elizabeth) nasceu no dia 22 de fevereiro de 1967 na Maternidade Municipal da cidade Pernambucana de Caruaru. filho de pais desconhecidos foi adotado logo após o seu nascimento por Heleno Soares da Silva e Maria Vênus Xavier da Silva."></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<th colspan="4" align="center">
+						<font face="Verdana" color="#fffff">
+							Logradouro
+						</font>
+					</th>
+				</tr>
+
+				<tr>
+					<td align="right" width="20%">
+						<font face="Verdana" color="#fffff">
+							Endereço:
+						</font>
+					</td>
+					<td>
+						<input type="text" name="endereço" size="36" 	placeholder="Rua Antonio de Moreira Carvalho">
+					</td>
+						<td align="right" width="15%">
+						<font face="Verdana" color="#fffff">
+							Número:
+						</font>
+					</td>
+					<td>
+						<input type="number" name="numer" min="1" max="5" placeholder="12345">
+					</td>
+				</tr>
+
+				<tr>
+					<td align="right" width="20%">
+						<font face="Verdana" color="#fffff">
+							Bairro:
+						</font>
+					</td>
+					<td>
+						<input type="text" placeholder="Centro" name="bairro">
+					</td>
+				
+					<td align="right" width="15%">
+						<font face="Verdana" color="#fffff">
+							Cidade:
+						</font>
+					</td>
+					<td>
+						<input type="text" name="cidade"  size="10" placeholder="Araguari">
+					</td>
+				</tr>
+
+				<tr>
+					<th colspan="4" align="center">
+						<font face="Verdana" color="#fffff">
+							Informações Para Contato
+						</font>
+					</th>
+				</tr>
+
+				<tr>
+					<td align="right" width="20%">
+						<font face="Verdana" color="#fffff">
+							Telefone:
+						</font>
+					</td>
+					<td width="15%">
+						<input type="tel" name="telefone" placeholder="(34) 3212-1111">
+					</td>
+						<td align="right" width="15%">
+						<font face="Verdana" color="#fffff">
+							Celular:
+						</font>
+					</td>
+					<td width="10%">
+						<input type="tel" name="celular" placeholder="(34) 99999-9999">
+					</td>
+				</tr>
+
+				<tr>
+					<td align="right">
+						<font face="Verdana" color="#fffff" >
+							Homepage:
+						</font>
+					</td>
+					<td>
+						<input type="url" name="homepage" placeholder="http://www.google.com.br">
+					</td>
+									
+					<td align="right">
+						<font face="Verdana" color="#fffff" >
+							E-mail:
+						</font>
+					</td>
+					<td>
+						<input type="email" name="email" size="25" placeholder="igor.rufinodossantos@gmail.com">
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="4" align="center">
+						<input type="submit" value="Cadastrar">
+						<input type="reset" value="limpar">
+						<input type="button" value="ajuda">
+						<input type="button" value="Cancelar">
+					</td>
+				</tr>
+
+			</table>
+	
+		</form>
+
+	</body>
+</html>
