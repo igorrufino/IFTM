@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: green;
+    }
+    
+    p {
+        background-color: blue;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    h1 {
+        color: red;
+    }
+    
+    p {
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    h1 {
+            color: pink;
+    }
+        
+    p {
+            background-color: lightblue ;
+    }
+
+}
+
+@media print {
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: pink;
+    }
+}

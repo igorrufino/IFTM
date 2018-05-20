@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    
+}
+@media (max-width: 700px) {
+    .li {   
+        flex-direction: column;
+    }
+}
+
+ul {
+    background-color: rgb(10, 10, 10);
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+   float: right;
+
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: -40px center;
+    transition: all 1s;
+
+}
+
+a:hover {
+     padding-left: 55px;
+     background-position: 10px center;
+}
+
+a.instagram {
+    background-image: url(../imagens/icones/insta.png);    
+}
+
+a.face {
+    background-image: url(../imagens/icones/face.png);    
+}
+
+a.twitter {
+    background-image: url(../imagens/icones/twitter.png);
+   
+}
+
+a.map {
+    background-image: url(../imagens/icones/map.png);
+   
+}
+
+a.youtube {
+    background-image: url(../imagens/icones/youtube.png);
+}
+
+
+
+
