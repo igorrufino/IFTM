@@ -4,22 +4,156 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="CSS/estilo.css">
-        <title>Aprenda Web Design na Pratica</title>
-    </head>
+        <link rel="stylesheet" href="CSS/estilo2.css">
 
+        <title>HTML</title>
+    </head>
     <body>
-        <header>
-            <h1>HTML5, CSS3 e JAVASCRIPT</h1>
-            <nav>
-                <ul>
-                    <li><a class="verde" href="#">Conheça o HTML5</a></li>
-                    <li><a class="azul" href="#">Aprenda CSS3</a></li>
-                    <li><a class="vermelho" href="#">Desvende o javascript</a></li>
-                    <li><a class="amarelo" href="#">Fale conosco</a></li>
-                    <li><a class="roxo" href="#">Quem somos</a></li>
-                </ul>
-            </nav>
-        </header>
+        <section>
+            <!-- ARTICLE CONTAINER HTML-->
+            <article>
+                <div id="containerHtml">
+                    <h2>Conhecendo o HTML 5</h2>
+
+                    <div id="caixa1" class="box">
+                        <h3>O que há de novo em HTML 5?</h3>
+                        <p>A declaração DOCTYPE para HTML 5 é muito simples:</p>
+                        <img class="imgcaixa" src="Imagens/html.jpg">
+                    </div>
+        
+                    <div id="caixa2" class="box"> 
+                        <h3>O que há de novo em HTML 5?</h3>
+                        <p>A declaração de codificação de caracteres (charset) também é muito simples:</p>
+                        <img class="imgcaixa" src="Imagens/charset.PNG">
+                    </div>
+        
+                    <div id="caixa3" class="box">
+                        <h3>Exemplo de HTML 5:</h3>
+                        <img class="imgcaixa" src="Imagens/html.PNG">
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTICLE CONTAINER CSS-->
+            <article>
+                <div id="containerCss">
+                    <h2>Aprendendo CSS</h2>
+    
+                    <div id="caixaCss1" class="box">
+                        <h3>O que é CSS?</h3>
+                        <ul>
+                            <li>CSS stands for Cascading Style Sheets;</li>
+                            <br>
+                            <li>CSS descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outras mídias;</li>
+                            <br>
+                            <li>CSS economiza muito trabalho. Pode controlar o layout de várias páginas da web de uma só vez;</li>
+                            <br>
+                            <li>Folhas de estilo externas são armazenadas em arquivos CSS;</li>
+                        </ul>
+                    </div>
+            
+                    <div id="caixaCss2" class="box"> 
+                        <h3>Economia de Tempo!</h3>
+                        <ul>
+                            <li>As definições de estilo são normalmente salvas em arquivos .css  externos;</li>
+                            <li>Com um arquivo de folha de estilo externo, você pode alterar a aparência de um site inteiro alterando apenas um arquivo;</li>
+                        </ul>    
+                    </div>
+            
+                     <div id="caixaCss3" class="box">
+                        <h3>Exemplo:</h3>
+                        <img src="Imagens/css1.jpg">
+                         
+                    </div>
+                </div>
+
+
+            </article>
+
+             <!-- ARTICLE CONTAINER Java Script-->
+            <article>
+                <div id="containerJScript">
+                    <h2>Desvendando JavaScript</h2>
+        
+                    <div id="caixaJScript1" class="box">
+                        <h3>Por que estudar JavaScript?</h3>
+                            
+                            <ul>
+                                <li>JavaScript é uma das três linguagens que todos os desenvolvedores da Web precisam aprender:
+                                    <br>
+                                    <br>
+                                    <ul>
+                                        <li>HTML para definir o conteúdo de páginas da web;</li><br>
+                                        <li>CSS para especificar o layout das páginas da web;</li><br>
+                                        <li>JavaScript para programar o comportamento de páginas da web;</li>
+                                    </ul>
+                                </li>     
+                            </ul>        
+                    </div>
+                
+                    <div id="caixaJScript2" class="box"> 
+                        <h3>JavaScript pode alterar o conteúdo HTML</h3>
+                        <ul>
+                            <li>Um dos muitos métodos HTML JavaScript é getElementById ()<br><br>
+                                <ul>
+                                    <li>Este exemplo usa o método para "encontrar" um elemento HTML (com id = "demo") e altera o conteúdo do elemento ( innerHTML ) para "Hello JavaScript";</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <div id="caixaJScript3" class="box">
+                        <h3>Exemplo:</h3>
+                        
+                        <img src="Imagens/javaScript.PNG">       
+                    </div>
+                </div>       
+            </article>
+
+             <!-- ARTICLE CONTAINER Fale Conosco-->
+            <article>
+                <div id="formulario">
+                    <h2>Fale Conosco:</h2>
+                    <form>
+
+                        <fieldset>
+                            <legend>Dados:</legend>
+                            <div class="Forma">
+                                <label for="title">Nome:</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+
+                            <div class="Forma">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email">
+                            </div>
+
+
+                            <div class="Forma">
+                                Mensagem:<textarea></textarea>
+                            </div>
+
+                            <div class="Forma">
+                                <label><input type="checkbox"> Remember me</label>
+                            </div>
+
+                            <div class="Forma">
+                                <button type="submit" class="btnenviar">Submit</button>
+                                <button type="reset" class="btnredefinir">redefinir</button>
+                            </div>
+                        </fieldset>
+                    </form>        
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            
+                
+                <p> Todos os direitos Reservados</p>
+
+           
+        </footer>
     </body>
 </html>

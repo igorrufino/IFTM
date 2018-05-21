@@ -8,12 +8,28 @@ ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    text-align: right;
+    
+}
+@media screen and (max-width: 700px) {
+    li {
+        text-align: center;
+        display: inline;    
+    }
+
+    a:hover {
+    background-color: red;
+    
+    }
+
+}
+@media screen and (min-width: 701px) {
+    li {
+        display: inline-block;  
+    }    
 }
 
-li {
-    display: inline-block;
 
-}
 
 a {
     display: block;

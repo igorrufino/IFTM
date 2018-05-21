@@ -1,34 +1,297 @@
+
+@font-face {
+    font-family: bunge;
+    src: url(../Fontes/Bungee-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: alegreya;
+    src: url(../Fontes/Alegreya-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: asap;
+    src: url(../Fontes/AsapCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: hind;
+    src: url(../Fontes/HindSiliguri-Regular.ttf);
+}
+
+@font-face {
+    font-family: ibmp;
+    src: url(../Fontes/IBMPlexSerif-Regular.ttf);
+}
+
+
 body {
     background-color: lightgrey;
-    margin: 5px auto; 
+    
 }
 
 section {
-   width: 1000px;
-    margin: auto;
+    width: 1000px;
+    margin: 0px auto;
 }
 
-#container {
-    width: 100%;
-    border: 1px solid rgb(46, 46, 3);
-    text-align: center; 
-    background-color: white;
-    color: blue;
-    box-shadow: 5px 5px 6px black
+article {
+    box-shadow: 5px 5px 6px black;   
 }
 
-.box {
-    vertical-align: top;
-    display: inline-block;
-    width: 300px;
-    height: 365px;
-    margin: 10px;
-    box-shadow: 2px 1px 6px black
+    /*  @@@@@@@@@@ ### CONTAINER E CAIXA HTML INICIO ###   @@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+        #containerHtml {
+            width: 100%;
+            height: 680px;  
+            text-align: center; 
+            background-image: url(../Imagens/notebook1280.jpg);
+            color: white;   
+        }
+        #containerHtml .box {
+            vertical-align: top;
+            display: inline-block;
+            width: 300px;
+            height: 400px;
+            margin: 130px 10px;
+            box-shadow: 6px 6px 8px rgba(56, 56, 56, 0.493);   
+        }
+
+        #containerHtml #caixa1, #caixa2, #caixa3 { 
+            background-color: rgba(102, 101, 101, 0.486);
+            color: white;
+            padding: 5px;
+        }
+
+        #containerHtml .imgcaixa {
+            width: 290px;
+            height: 250px;
+            box-shadow: 2px 1px 1px black
+        }
+        #containerHtml #caixa1 img { margin: 20px auto auto auto; }
+        #containerHtml #caixa2 img { margin: 20px auto auto auto;}
+        #containerHtml #caixa3 img { margin: 70px auto auto auto;}
+
+        #containerHtml h1 {
+            font-family: bunge;    
+        }
+
+        #containerHtml h2{
+
+            font-size: 70px;
+            color: white;
+            text-shadow: 2px 2px 3px rgba(31, 31, 31, 0.801);
+            margin: 30px;
+            background: #ff4e029f;
+            padding: 5px;
+        } 
+
+        #containerHtml h3 {
+            font-family: hind;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+            font-size: 22px;
+        }
+
+        #containerHtml p {
+            font-family: asap;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+            text-align: justify;
+            text-indent: 1.5em;
+        }
+
+    /*  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@ ### CONTAINER E CAIXA HTML FIM ### @@@@@@@@@@@*/
+
+
+
+
+    /*  ########### %%%%% CONTAINER E CAIXA CSS INICIO %%%%%%% ####
+        #########################################################*/
+        #containerCss {
+            width: 100%;
+            height: 680px;
+            margin-top: 5px;
+            text-align: center; 
+            background-image: url(../Imagens/tidy1280.jpg);   
+        }
+
+        #containerCss .box {
+            vertical-align: top;
+            display: inline-block;
+            width: 300px;
+            height: 400px;
+            margin: 130px 10px;
+            box-shadow: 6px 6px 5px rgba(71, 71, 71, 0.815);   
+        }
+
+
+        #caixaCss1, #caixaCss2, #caixaCss3 { 
+            background-color: rgba(92, 92, 92, 0.459);
+            padding: 5px;
+            text-shadow: 2px 2px 3px rgb(7, 7, 7);
+            color: rgb(255, 255, 255);
+        }
+
+        #containerCss .imgcaixa {
+            width: 290px;
+            height: 250px;
+            box-shadow: 2px 1px 1px black;
+        }
+
+        #containerCss h1 {
+            font-family: bunge;    
+        }
+        #containerCss h2{
+            font-size: 70px;
+            color: #ffffff;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+            margin: 30px;
+            background: #2aa7e186;
+            padding: 5px;
+        } 
+        #containerCss h3 {
+            font-family: hind;
+            font-size: 30px;
+        }
+
+        #containerCss li {
+            font-family: alegreya;
+            font-size: 17px;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+            text-align: justify;
+            line-height: 22px;
+        }
+
+        #caixaCss3 img {
+        margin-top: 50px;
+        width: 300px;
+        height: auto;
+        box-shadow: 2px 2px 5px black;
+        }
+        /*  #########################################################
+            ####### %%%%% CONTAINER E CAIXA CSS FIM %%%%%%% #######*/
+
+
+
+
+
+
+        /*  ####### @@@@@@@ CONTAINER E CAIXA JavaScript @@@@@@ ####
+            #######################################################*/
+                #containerJScript {
+                    width: 100%;
+                    height: 680px;
+                    margin-top: 5px;
+                    text-align: center; 
+                    background-image: url(../Imagens/creativity1280.jpg);   
+                }
+                
+                #containerJScript .box {
+                    vertical-align: top;
+                    display: inline-block;
+                    width: 300px;
+                    height: 400px;
+                    margin: 130px 10px;
+                    box-shadow: 6px 6px 8px rgba(7, 7, 7, 0.671);   
+                }
+                
+                
+                #caixaJScript1, #caixaJScript2, #caixaJScript3 { 
+                    background-color: rgba(59, 59, 59, 0.568);
+                    padding: 5px;
+                    text-shadow: 2px 2px 1px rgb(0, 12, 51);
+                    color: rgb(255, 255, 255);
+                }
+                
+                #containerJScript .imgcaixa {
+                    width: 290px;
+                    height: 250px;
+                    box-shadow: 2px 1px 1px black
+                }
+                
+                #containerJScript h1 {
+                    font-family: bunge;    
+                }
+                #containerJScript h2{
+                    font-size: 70px;
+                    color: white;
+                    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+                    margin: 30px;
+                    background: #f1be26a6;
+                    padding: 5px;
+                } 
+                #containerJScript h3 {
+                    font-family: hind;
+                    font-size: 25px;
+                }
+                
+                #containerJScript li {
+                    font-family: alegreya;
+                    font-size: 17px;
+                    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+                    text-align: justify;
+                }
+                
+                #containerJScript img {
+                    margin-top: 50px;
+                    width: 300px;
+                    height: auto;
+                    box-shadow: 2px 2px 5px black;
+                }
+
+            /*  #########################################################
+                ####### %%%%% CONTAINER E CAIXA Java Script %%%%%%% #######*/
+
+
+
+
+            /*  ############# @@@@@@@ Formulario @@@@@@ ###############
+                #######################################################*/
+                #formulario {
+                    width: 100%;
+                    height: 680px;
+                    margin-top: 5px;
+                    text-align: center; 
+                    background-image: url(../Imagens/wood1280.jpg);   
+                }
+
+                #formulario h2 {
+                    font-size: 70px;
+                    color: white;
+                    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+                    margin: 30px;
+                    background: #464646a6;
+                    padding: 5px;
+                }
+
+                form { 
+                    width: 300px;
+                    margin: 150px auto;
+                    background: #464646a6;
+                    border: 1px solid rgb(5, 5, 5); 
+                    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.801);
+                }
+                .Forma {
+                    padding: 5px;    
+                }
+
+    
+             /* #######################################################
+                ############# @@@@@@@ Formulario @@@@@@ #############*/
+
+footer {
+                  
+    color: white;
+    width: 995px;
+    height: 50px;
+    padding: 5px;
+    margin: 20px  auto;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.966);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.966);
+  
+
 }
-
-#caixa1, #caixa2, #caixa3 { 
-    background-color: rgba(255, 255, 255, 0.685);
-    color: rgb(255, 8, 8);
-}
-
-

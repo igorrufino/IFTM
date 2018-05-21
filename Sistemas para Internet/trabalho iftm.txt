@@ -1,0 +1,55 @@
+Ojetivos da aula
+
+Compreender os conceitos inicias de informática;
+diferenciar os principais elementos de hardwre e software;
+aparesentar os principais intens de hardware e software
+compreender os termos tecnicos utilizado por profissionais.
+compreender a evoluçao do modelo computacional
+conhecer as geraçoes dos computadores
+
+
+--
+
+conceitos basicos
+
+computador: maquina programavel que processa dados de forma automatica.
+
+ex: Desketop. notebook, smarthone tablets, servidores, mainframetes xbox e outros
+
+
+beneficios:
+
+velocidade de processamento
+precisao
+compartilhamento
+reduçao de custos
+
+
+aplicações 
+
+tradicionais: calculos, controle de estoque e outros...
+
+recentes: pesquisas, redes sociais, veiculos, avioes, industria, comercio eletronico,
+jogos e outros,...
+
+
+sistema computacional: hardware e software
+
+hardware: parte fisico e pode ser tocado
+
+
+softwre: é a parte logica e que torna o computador util
+
+
+
+ex: windows, ios word, ppt, android, browser
+
+princiapais componentes
+
+
+hardware
+
+dispositivo de entrada processamento e saida;
+
+
+
